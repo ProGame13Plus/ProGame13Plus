@@ -1,0 +1,3 @@
+﻿Алина : git checkout 18.00_Alina
+Даниил: git checkout 18.00_Daniil
+Леонид: git checkout 18.00_Leonid
