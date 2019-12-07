@@ -1,0 +1,13 @@
+
+let i = 0;
+let n = [6, 2, 13, 134];
+let arr = ["Однозначное число", "Двузначное число","Трехзначное число"];
+for (let i = 0;i<4;++i)
+{
+  if (n[i]>=0 & n[i]<=9)
+  console.log(n[i]+" - "+  arr[0]);
+  if (n[i]>=10 & n[i]<=99)
+  console.log(n[i]+" - "+ arr[1])
+  if (n[i]>=100 & n[i]<=999)
+  console.log(n[i]+" - "+ arr [2])
+}
