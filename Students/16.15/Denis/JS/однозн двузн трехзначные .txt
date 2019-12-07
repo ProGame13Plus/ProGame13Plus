@@ -1,0 +1,23 @@
+
+function getRandomInt(min, max) 
+{
+  return Math.floor(Math.random() * (max - min)) + min;
+}
+let l = [1,2,3,4,11,32,45,67,111,233,555,777];
+x =  getRandomInt(0,11);
+console.log (l[x]);
+if (l[x] >= 0 && l[x] <= 9)
+{
+console.log ("это однозначное число");
+}
+if (l[x] >= 10 && l[x] <= 99)
+{
+console.log ("это двузначное число");
+}
+if (l[x] >= 100 && l[x] <= 999)
+{
+console.log ("это трехзначное число");
+}
+
+
+
